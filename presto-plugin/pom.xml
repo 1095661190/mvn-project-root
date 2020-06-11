@@ -7,7 +7,7 @@
     <parent>
         <groupId>com.project.server</groupId>
         <artifactId>mvn-project-root</artifactId>
-        <version>20200610</version>
+        <version>${global.version}</version>
     </parent>
 
 
@@ -25,6 +25,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.source>1.7</maven.compiler.source>
         <maven.compiler.target>1.7</maven.compiler.target>
+        <presto.version>331</presto.version>
     </properties>
 
     <dependencies>
@@ -37,8 +38,14 @@
         <dependency>
             <groupId>io.prestosql</groupId>
             <artifactId>presto-spi</artifactId>
-            <version>331</version>
+            <version>${presto.version}</version>
         </dependency>
+        <dependency>
+            <groupId>io.prestosql</groupId>
+            <artifactId>presto-main</artifactId>
+            <version>${presto.version}</version>
+        </dependency>
+
         <dependency>
             <groupId>com.google.guava</groupId>
             <artifactId>guava</artifactId>
@@ -49,6 +56,11 @@
             <groupId>com.google.googlejavaformat</groupId>
             <artifactId>google-java-format</artifactId>
             <version>1.8</version>
+        </dependency>
+        <dependency>
+            <groupId>commons-codec</groupId>
+            <artifactId>commons-codec</artifactId>
+            <version>1.9</version>
         </dependency>
     </dependencies>
 
