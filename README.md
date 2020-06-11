@@ -24,11 +24,13 @@
         <checkstyle.skip>true</checkstyle.skip>
     </properties>
 ```
-## IDEA 安装Alibaba Java Coding Guidelines plugin
- 1. Settings >> Plugins >> Browse repositories...   
+## IDEA 安装Alibaba Java Coding Guidelines plugin 
+    https://github.com/alibaba/p3c.git
+
+ 1. Settings >> Plugins >> Browse repositories...       
  Search plugin by keyword 'alibaba' then install 'Alibaba Java Coding Guidelines' plugin
  
- 2. Code Analyze
+ 2. Code Analyze  
  Tools >> Alibaba Java Coding Guidelines >> Analyze
 
 
