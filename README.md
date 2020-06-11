@@ -7,3 +7,21 @@
     3. zip,tar,tar.gz,tar.bz2,jar,dir,war (可在src/main/assembly/assembly.xml配置)    
 
 子modelu中可根据需要自定义
+
+
+## skip checkstyle 
+```
+1  
+<plugin>
+    <groupId>org.apache.maven.plugins</groupId>
+    <artifactId>maven-checkstyle-plugin</artifactId>
+    <configuration>
+        <skip>true</skip>
+    </configuration>
+</plugin>
+2  
+<properties>
+        <checkstyle.skip>true</checkstyle.skip>
+    </properties>
+```
+
