@@ -2,3 +2,7 @@
 
 # Project exclude paths
 /presto-plugin/target/
+/*/test/
+/*/*/test/
+.idea
+*.iml
