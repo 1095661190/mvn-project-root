@@ -1,8 +1,7 @@
 # Created by .ignore support plugin (hsz.mobi)
 
 # Project exclude paths
-/presto-plugin/target/
-/*/test/
-/*/*/test/
+target
+test
 .idea
 *.iml
