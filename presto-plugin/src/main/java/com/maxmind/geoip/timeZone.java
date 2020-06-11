@@ -15,7 +15,6 @@ package com.maxmind.geoip;
 // generated automatically from admin/generate_timeZone.pl
 public class timeZone
 {
-
     public static String timeZoneByCountryAndRegion(String country, String region)
     {
         if (country == null) {
